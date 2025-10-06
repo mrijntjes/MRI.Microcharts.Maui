@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <!-- iOS, Android, MacCatalyst -->
-        <TargetFrameworks>net7.0-ios;net7.0-android;net7.0-maccatalyst</TargetFrameworks>
-        <TargetFrameworks Condition="$(IsWindows)">$(TargetFrameworks);net7.0-windows10.0.19041</TargetFrameworks>
+        <TargetFrameworks>net9.0-ios;net9.0-android;net9.0-maccatalyst</TargetFrameworks>
+        <TargetFrameworks Condition="$(IsWindows)">$(TargetFrameworks);net9.0-windows10.0.19041</TargetFrameworks>
         <TargetPlatformMinVersion Condition="$(TargetFramework.Contains('-windows'))">10.0.17763.0</TargetPlatformMinVersion>
         <PackagingPlatform Condition="$(TargetFramework.Contains('-windows'))">net7.0-windows</PackagingPlatform>
         <UseMaui>true</UseMaui>
@@ -13,11 +13,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="2.88.3" />
+      <PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="3.119.1" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Microcharts\Microcharts.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Update="Microsoft.Maui.Controls" Version="9.0.110" />
     </ItemGroup>
 
 </Project>
