@@ -13,3 +13,7 @@ Depends on SkiaSharp 3.119.1 (is 16KB page compatible!)
 2. Go to your App project and add a project reference. The Microcharts.Maui project is shown.
 
 3. follow the official instructions of [Github](https://www.nuget.org/packages/Microcharts.Maui) or [whatch the video of Houssem Dellai:](https://www.youtube.com/watch?v=tmymWdmf1y4)
+
+## NuGet package
+
+1. Search for the following package: Lemathieu.Microcharts.Maui
