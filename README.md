@@ -8,7 +8,7 @@ Depends on SkiaSharp 3.119.1 (is 16KB page compatible!)
 
 ## How to use
 
-1. Add the Microcharts.Maui project to your App project
+1. Add the Microcharts.Maui project (Not the Microcharts base project!) to your App project
 
 2. Go to your App project and add a project reference. The Microcharts.Maui project is shown.
 
