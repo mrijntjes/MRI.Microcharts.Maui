@@ -2,15 +2,24 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <PackageId>Microcharts.Core</PackageId>
+        <PackageId>Lemathieu.Microcharts.Core</PackageId>
         <Description>Core components for Microcharts.</Description>
         <PackageTags>microcharts</PackageTags>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <NoWarn>$(NoWarn);CS1591</NoWarn>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="docs\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
     <ItemGroup>
         <PackageReference Include="SkiaSharp" Version="3.119.1" />
         <PackageReference Include="System.ValueTuple" Version="4.6.1" />
+        <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.70" />
     </ItemGroup>
 </Project>

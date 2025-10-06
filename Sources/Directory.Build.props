@@ -6,7 +6,7 @@
 
     <PropertyGroup>
         <!-- Change these two values to control the version -->
-        <VersionMain>1.0.1</VersionMain>
+        <VersionMain>1.0.2</VersionMain>
         <VersionPrelease></VersionPrelease>
     </PropertyGroup>
 
@@ -22,8 +22,8 @@
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <Authors>Microcharts Team</Authors>
         <NeutralLanguage>en</NeutralLanguage>
-        <RepositoryUrl>https://github.com/microcharts-dotnet/Microcharts.git</RepositoryUrl>
-        <PackageProjectUrl>https://github.com/microcharts-dotnet/Microcharts</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/mrijntjes/Lemathieu.Microcharts.Maui.git</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/mrijntjes/Lemathieu.Microcharts.Maui</PackageProjectUrl>
         <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
         <Copyright>Copyright 2017-$([System.DateTime]::Now.ToString(`yyyy`)) &#169; Microcharts Team</Copyright>
         <PackageVersion>$(VersionMain)$(VersionPrelease)</PackageVersion>
