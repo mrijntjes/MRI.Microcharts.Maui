@@ -1,4 +1,4 @@
-# Lemathieu.Microcharts.Maui.Net9
+# Lemathieu.Microcharts.Maui
 
 This is a fork of the Microcharts repository and updated for .net 9 and SkiaSharp 3.x
 
