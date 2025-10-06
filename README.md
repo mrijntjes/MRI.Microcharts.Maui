@@ -4,6 +4,7 @@ This is a fork of the Microcharts repository and updated for .net 9 and SkiaShar
 
 This is specific done to compliance for the new 16KB page compatibility for Android.
 
+Depends on SkiaSharp 3.119.1 (is 16KB page compatible!)
 
 ## How to use
 
