@@ -1,8 +1,8 @@
 # Lemathieu.Microcharts.Maui
 
-This is a fork of the Microcharts repository and updated for .net 9 and SkiaSharp 3.x
+This is a fork of the Microcharts repository trimmed down to only the Microcharts.Core & Microcharts.Maui projects and updated to .net 9 and SkiaSharp 3.x
 
-This is specific done to compliance for the new 16KB page compatibility for Android.
+This fork is specicly done for compliancy of the new 16KB page compatibility for Android.
 
 Depends on SkiaSharp 3.119.1 (is 16KB page compatible!)
 
