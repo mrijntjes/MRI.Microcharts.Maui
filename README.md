@@ -1,4 +1,4 @@
-# Lemathieu.Microcharts.Maui
+# MRI.Microcharts.Maui
 
 This is a fork of the Microcharts repository trimmed down to only the Microcharts.Core & Microcharts.Maui projects and updated to .net 9 and SkiaSharp 3.x
 
